@@ -87,7 +87,7 @@ Thank you for respecting these conditions so everyone can benefit from this scri
 
 ---
 
-## **🎥 Preview Youtube**
+## **🎥 Preview Youtube (click on the image)**
 
 ✅ **Drinking animation**  
 ✅ **In-game drunkenness effects**  
