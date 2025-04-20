@@ -1,0 +1,27 @@
+{
+  "drinking": {
+    "start": "~b~You takes out your alcohol.",
+    "sip": "~p~You took a sip.\n[%{remaining} remaining]",
+    "finish": "~o~You finished your alcohol.\n[%{count} consumed]",
+    "stop": "~r~You put away your alcohol.",
+    "help": "Use your alcohol:\n~INPUT_PICKUP~ - To drink\n~INPUT_VEH_DUCK~ - To put away"
+  },
+  "effects": {
+    "level1": "~y~You start feeling alcohol's effects .",
+    "level2": "~o~Be careful, you're staggering dangerously.",
+    "level3": "~r~You're completely drunk.",
+    "stumble": "~o~You stumble heavily.",
+    "knockout": "~r~You pass out from alcohol.",
+    "recovery": "~g~You feel a little better.",
+    "drunk_driving": "~c~You're too drunk to drive!"
+  },
+  "commands": {
+    "reset": "~g~Alcohol effects reset!",
+    "status": "Bottles consumed: %{count}",
+    "current": "Current bottle: %{bottle} (%{remaining} sips remaining)"
+  },
+  "admin": {
+    "reset_success": "~g~Alcohol effects reset for player #%{target}",
+    "no_permission": "~r~Permission denied"
+  }
+}

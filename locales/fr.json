@@ -1,0 +1,27 @@
+{
+  "drinking": {
+    "start": "~b~Vous sortez votre alcool.",
+    "sip": "~p~Vous buvez une gorgée.\n[%{remaining} restante(s)]",
+    "finish": "~o~Vous avez terminé votre boisson alcoolisée.\n[%{count} consommée(s)]",
+    "stop": "~r~Vous rangez votre alcool.",
+    "help": "Utiliser votre alcool :\n~INPUT_PICKUP~ - Pour boire\n~INPUT_VEH_DUCK~ - Pour ranger"
+  },
+  "effects": {
+    "level1": "~y~Vous commencez à ressentir les effets de l'alcool.",
+    "level2": "~o~Attention, vous titubez dangereusement.~y~",
+    "level3": "~r~Vous êtes totalement ivre.",
+    "stumble": "~o~Vous trébuchez lourdement.",
+    "knockout": "~r~Vous perdez connaissance à cause de l'alcool.",
+    "recovery": "~g~Vous vous sentez un peu mieux.",
+    "drunk_driving": "~c~Vous êtes trop ivre pour conduire !"
+  },
+  "commands": {
+    "reset": "~g~Effets d'alcool reset !",
+    "status": "Bouteilles consommées : %{count}",
+    "current": "Bouteille en cours : %{bottle} (%{remaining} gorgée(s) restante(s))"
+  },
+  "admin": {
+    "reset_success": "~g~Effets reset pour le joueur #%{target}",
+    "no_permission": "~r~Permission refusée"
+  }
+}
